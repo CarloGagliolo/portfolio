@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carlo Gagliolo | Web Developer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlo Gagliolo | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-  <header class="header">
-    <div class="container">
-      <img src="profile.jpg" alt="Foto profilo" class="profile-img" />
-      <h1>Carlo Gagliolo</h1>
-      <p class="role">Web Developer</p>
-    </div>
-  </header>
-
-  <section id="about" class="section">
-    <div class="container">
-      <h2>Chi sono</h2>
-      <p>
-        Sono un programmatore backend che lavora da anni a webapp nel settore sanitario.
-        Mi piace creare soluzioni robuste, sicure e scalabili che migliorino la vita delle persone.
-      </p>
-    </div>
-  </section>
-
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Progetti</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Benesserologia</h3>
-          <p>Sito dell'associazione Accademia di Benesserologia.</p>
-          <a href="https://carlogagliolo.github.io/benesserologia" target="_blank">Vedi su GitHub</a>
+    <header class="header fade-in">
+        <div class="container">
+            <img src="profile.jpg" alt="Foto profilo" class="profile-img" />
+            <h1>Carlo Gagliolo</h1>
+            <p class="typing" id="typing"></p>
         </div>
-        <div class="project-card">
-          <h3>8-bit portfolio</h3>
-          <p>his unique developer portfolio is crafted in Next.js and styled using the nes.css library to bring a nostalgic, 
-            old-school NES look. Perfect for developers who want to showcase their projects with a retro gaming aesthetic, 
-            this template combines modern web development with a delightful 8-bit design.</p>
-          <a href="https://github.com/CarloGagliolo/8bit-portfolio" target="_blank">Vedi su GitHub</a>
-        </div>
-        <div class="project-card">
-          <h3>Multiversorum Magistri</h3>
-          <p>Sito dell'associazione Multiversorum Magistri.</p>
-          <a href="https://carlogagliolo.github.io/multiversorum_magistri/" target="_blank">Vedi su GitHub</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 Carlo Gagliolo</p>
-      <div class="social-links">
-        <a href="mailto:info@esempio.com">Email</a>
-        <a href="https://github.com/CarloGagliolo" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </footer>
+    <section id="about" class="section fade-in">
+        <div class="container">
+            <h2>Chi sono</h2>
+            <p>
+                Sono un programmatore backend che lavora da anni a webapp nel settore sanitario.
+                Mi piace creare soluzioni robuste, sicure e scalabili che migliorino la vita delle persone.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section fade-in">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">🧠 Backend</div>
+                <div class="skill-card">⚙️ API REST</div>
+                <div class="skill-card">💾 Database</div>
+                <div class="skill-card">🐳 Docker</div>
+                <div class="skill-card">☁️ Cloud</div>
+                <div class="skill-card">🔒 Sicurezza</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Progetti</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Benesserologia</h3>
+                    <p>Sito dell'associazione Accademia di Benesserologia.</p>
+                    <a href="https://carlogagliolo.github.io/benesserologia" target="_blank">Vedi su GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>8-bit portfolio</h3>
+                    <p>his unique developer portfolio is crafted in Next.js and styled using the nes.css library to
+                        bring a nostalgic,
+                        old-school NES look. Perfect for developers who want to showcase their projects with a retro
+                        gaming aesthetic,
+                        this template combines modern web development with a delightful 8-bit design.</p>
+                    <a href="https://github.com/CarloGagliolo/8bit-portfolio" target="_blank">Vedi su GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Multiversorum Magistri</h3>
+                    <p>Sito dell'associazione Multiversorum Magistri.</p>
+                    <a href="https://carlogagliolo.github.io/multiversorum_magistri/" target="_blank">Vedi su GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer fade-in">
+        <div class="container">
+            <p>© 2025 Carlo Gagliolo</p>
+            <div class="social-links">
+                <a href="mailto:carlo126055@gmail.com">Email</a>
+                <a href="https://github.com/CarloGagliolo" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
