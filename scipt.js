@@ -20,7 +20,7 @@ const appearOptions = {
   rootMargin: "0px 0px -50px 0px"
 };
 
-const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+const appearOnScroll = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     entry.target.classList.add("visible");
@@ -30,4 +30,21 @@ const appearOnScroll = new IntersectionObserver(function(entries, observer) {
 
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
+});
+
+// Theme toggle
+const toggleBtn = document.getElementById("theme-toggle");
+const body = document.body;
+
+// Ricorda preferenza
+if (localStorage.getItem("theme") === "light") {
+  body.classList.add("light");
+  toggleBtn.textContent = "☀️";
+}
+
+toggleBtn.addEventListener("click", () => {
+  body.classList.toggle("light");
+  const theme = body.classList.contains("light") ? "light" : "dark";
+  localStorage.setItem("theme", theme);
+  toggleBtn.textContent = theme === "light" ? "☀️" : "🌙";
 });
