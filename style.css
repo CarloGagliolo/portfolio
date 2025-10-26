@@ -27,9 +27,15 @@ body {
   border: 2px solid #333;
 }
 
-.role {
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.typing {
   font-size: 1.2rem;
-  color: #9f9f9f;
+  color: #4da3ff;
+  height: 1.2rem;
 }
 
 /* Sections */
@@ -40,6 +46,27 @@ body {
 .container {
   max-width: 900px;
   margin: 0 auto;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  background: #222;
 }
 
 /* Projects */
@@ -88,4 +115,16 @@ body {
 
 .social-links a:hover {
   color: #fff;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
