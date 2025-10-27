@@ -1,6 +1,6 @@
 ## 🧑‍💻 Carlo Gagliolo — Web Developer Portfolio
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen)](https://CarloGagliolo.github.io)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen)](https://carlogagliolo.github.io/portfolio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Benvenuto nel mio sito personale!  
@@ -25,12 +25,12 @@ Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaS
 
 ## 🌐 **Pubblicazione**
 - Il sito è pubblicato su GitHub Pages:
-- 👉 https://CarloGagliolo.github.io
+- 👉 [https://CarloGagliolo.github.io](https://carlogagliolo.github.io/portfolio)
 
 
 ## 📫 **Contatti**
 - 📧 **Email** - carlo126055@gmail.com
-- 💼 **GitHub** - github.com/CarloGagliolo
+- 💼 **GitHub** - [github.com/CarloGagliolo](https://CarloGagliolo.github.io)
 - 📍 **Località** - Cairo Montenotte (SV), Italia
 
 
