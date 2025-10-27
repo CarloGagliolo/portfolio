@@ -1,4 +1,4 @@
-/* ========== BASE ========== */
+/* === BASE === */
 * {
   margin: 0;
   padding: 0;
@@ -16,14 +16,14 @@ body {
   line-height: 1.6;
 }
 
-/* ========== CONTAINER ========== */
+/* === CONTAINER === */
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-/* ========== NAVBAR ========== */
+/* === NAVBAR === */
 .navbar {
   position: fixed;
   top: 0;
@@ -49,21 +49,20 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .nav-links a {
   color: #eaeaea;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
   color: #4da3ff;
 }
 
-/* ========== HEADER ========== */
+/* === HEADER === */
 .header {
   padding-top: 7rem;
   padding-bottom: 3rem;
@@ -82,10 +81,9 @@ body {
 
 .subtitle {
   color: #4da3ff;
-  font-weight: 500;
 }
 
-/* ========== SECTIONS ========== */
+/* === SECTIONS === */
 .section {
   padding: 3rem 1rem;
 }
@@ -101,7 +99,30 @@ p {
   font-size: 1rem;
 }
 
-/* ========== SKILLS ========== */
+/* === EXPERIENCE === */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-item {
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: background 0.2s ease;
+}
+
+.experience-item:hover {
+  background: #222;
+}
+
+.exp-date {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+/* === SKILLS === */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -114,15 +135,15 @@ p {
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .skill-card:hover {
-  transform: scale(1.05);
   background: #222;
+  transform: scale(1.05);
 }
 
-/* ========== PROJECTS ========== */
+/* === PROJECTS === */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -134,17 +155,15 @@ p {
   background: #1a1a1a;
   border-radius: 12px;
   padding: 1.5rem;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-4px);
   background: #222;
+  transform: translateY(-3px);
 }
 
 .project-card a {
-  display: inline-block;
-  margin-top: 0.5rem;
   color: #4da3ff;
   text-decoration: none;
 }
@@ -153,7 +172,28 @@ p {
   text-decoration: underline;
 }
 
-/* ========== CONTACTS ========== */
+/* === HOBBIES === */
+.hobbies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hobby-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+.hobby-card:hover {
+  background: #222;
+}
+
+/* === CONTACT === */
 .social-links {
   margin-top: 1rem;
 }
@@ -168,7 +208,7 @@ p {
   color: #4da3ff;
 }
 
-/* ========== FOOTER ========== */
+/* === FOOTER === */
 .footer {
   text-align: center;
   padding: 2rem 1rem;
@@ -177,14 +217,10 @@ p {
   color: #888;
 }
 
-/* ========== RESPONSIVE DESIGN ========== */
+/* === RESPONSIVE === */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
-  }
-
-  .header {
-    padding-top: 6rem;
   }
 
   h1 {
@@ -199,7 +235,9 @@ p {
     font-size: 0.95rem;
   }
 
-  .skills-grid, .projects-grid {
+  .skills-grid,
+  .projects-grid,
+  .hobbies-grid {
     grid-template-columns: 1fr;
   }
 }
