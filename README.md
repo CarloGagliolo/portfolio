@@ -25,7 +25,7 @@ Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaS
 
 ## 🌐 **Pubblicazione**
 - Il sito è pubblicato su GitHub Pages:
-- 👉 [https://CarloGagliolo.github.io](https://carlogagliolo.github.io/portfolio)
+- 👉 https://carlogagliolo.github.io/portfolio
 
 
 ## 📫 **Contatti**
