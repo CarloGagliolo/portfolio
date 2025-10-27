@@ -1,38 +1,48 @@
-🧑‍💻 Carlo Gagliolo — Web Developer Portfolio
+# 🧑‍💻 Carlo Gagliolo — Web Developer Portfolio
 
-Benvenuto nel mio sito personale!
-Questo portfolio è stato realizzato interamente con HTML e CSS, ed è completamente responsive per un’ottima visualizzazione anche su dispositivi mobili.
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-brightgreen)](https://CarloGagliolo.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Benvenuto nel mio sito personale!  
+Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaScript, ed è completamente **responsive** — si adatta perfettamente a smartphone, tablet e desktop.  
+
+---
+
+## 🚀 **Caratteristiche principali**
+- Design **dark mode** moderno e minimal  
+- Struttura **responsive** e accessibile  
+- Nessuna dipendenza da framework o librerie esterne  
+- Codice leggero, semplice da modificare  
+
+---
+
+## 🧱 **Sezioni del sito**
+- 👨‍💻 **Chi sono** – Presentazione personale e background professionale  
+- 💼 **Esperienze professionali** – Ruoli e aziende principali  
+- 🧠 **Competenze tecniche** – Linguaggi, framework e strumenti utilizzati  
+- 🎓 **Formazione** – Percorso di studi  
+- 🎸 **Hobby e interessi** – Attività personali e passioni  
+- ✉️ **Contatti** – Email, GitHub e informazioni personali  
+
+---
 
 
-🚀 Caratteristiche
+## 🌐 **Pubblicazione**
 
-Design dark mode moderno ed elegante
-
-Layout responsive per smartphone, tablet e desktop
-
-Sezioni principali:
-├── Chi sono  
-├── Esperienze professionali  
-├── Skills
-├── Progetti
-├── Hobby e interessi
-└── Contatti
-
-
-🧱 Struttura del progetto
-├── index.html      → Pagina principale del portfolio  
-├── style.css       → Stili del sito (dark, responsive)  
-└── profile.jpg     → Immagine profilo segnaposto
-
-
-🌐 Pubblicazione
-
-Il sito è ospitato su GitHub Pages
+Il sito è pubblicato su GitHub Pages:
 👉 https://CarloGagliolo.github.io
 
 
 📫 Contatti
 
-GitHub: github.com/CarloGagliolo
+📧 Email: carlo126055@gmail.com
 
-Email: info@esempio.com
+💼 GitHub: github.com/CarloGagliolo
+
+📍 Località: Cairo Montenotte (SV), Italia
+
+
+🪪 Licenza
+
+Questo progetto è distribuito sotto la licenza MIT.
+Puoi usarlo, modificarlo e adattarlo liberamente, purché venga mantenuto il credito all’autore originale.
