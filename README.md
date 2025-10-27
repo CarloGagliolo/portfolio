@@ -30,7 +30,7 @@ Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaS
 
 ## 📫 **Contatti**
 - 📧 **Email** - carlo126055@gmail.com
-- 💼 **GitHub** - [github.com/CarloGagliolo](https://CarloGagliolo.github.io)
+- 💼 **GitHub** - (https://github.com/CarloGagliolo)
 - 📍 **Località** - Cairo Montenotte (SV), Italia
 
 
