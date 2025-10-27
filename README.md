@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Benvenuto nel mio sito personale!  
-Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaScript, ed è completamente **responsive** — si adatta perfettamente a smartphone, tablet e desktop.  
+Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaScript, ed è completamente **responsive**.  
 
 ---
 
@@ -26,23 +26,19 @@ Questo portfolio è stato sviluppato interamente con **HTML e CSS**, senza JavaS
 
 ---
 
-
 ## 🌐 **Pubblicazione**
+- Il sito è pubblicato su GitHub Pages:
+- 👉 https://CarloGagliolo.github.io
 
-Il sito è pubblicato su GitHub Pages:
-👉 https://CarloGagliolo.github.io
+---
 
+## 📫 **Contatti**
+- 📧 **Email** - carlo126055@gmail.com
+- 💼 **GitHub** - github.com/CarloGagliolo
+- 📍 **Località** - Cairo Montenotte (SV), Italia
 
-📫 Contatti
+---
 
-📧 Email: carlo126055@gmail.com
-
-💼 GitHub: github.com/CarloGagliolo
-
-📍 Località: Cairo Montenotte (SV), Italia
-
-
-🪪 Licenza
-
+## 📝 **Licenza**
 Questo progetto è distribuito sotto la licenza MIT.
 Puoi usarlo, modificarlo e adattarlo liberamente, purché venga mantenuto il credito all’autore originale.
