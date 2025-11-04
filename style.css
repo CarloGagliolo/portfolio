@@ -151,6 +151,45 @@ p {
   transform: scale(1.03);
 }
 
+/* ===== EDUCATION ===== */
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.education-card {
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.education-card:hover {
+  background: #e9f2fb;
+  transform: scale(1.03);
+}
+
+.education-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.education-card h3 {
+  color: #004c91;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.education-card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
 /* ===== HOBBIES ===== */
 .hobbies-grid {
   display: grid;
