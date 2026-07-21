@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlo Gagliolo | Web Developer</title>
+    <title>Carlo Gagliolo | Senior Backend Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +20,7 @@
             <ul class="nav-links">
                 <li><a href="#about">Chi sono</a></li>
                 <li><a href="#experience">Esperienza</a></li>
+                <li><a href="#projects">Progetti</a></li>
                 <li><a href="#skills">Competenze</a></li>
                 <li><a href="#education">Formazione</a></li>
                 <li><a href="#hobbies">Hobby</a></li>
@@ -33,7 +34,7 @@
         <div class="container hero">
             <img src="profile.jpg" alt="Foto profilo di Carlo Gagliolo" class="profile-img">
             <h1>Carlo Gagliolo</h1>
-            <p class="subtitle">Web Developer</p>
+            <p class="subtitle">Senior Backend Developer | Java · PHP · SQL</p>
         </div>
     </header>
 
@@ -42,14 +43,13 @@
         <div class="container">
             <h2>Chi sono</h2>
             <p>
-                Sono un <strong>sviluppatore full stack</strong> con esperienza pluriennale nello sviluppo di
-                applicazioni
-                web in ambito
-                sanitario e bancario. Ho una forte passione per la programmazione, la progettazione di sistemi scalabili
-                e la scrittura di codice pulito e manutenibile.
-                Attualmente lavoro come <strong>Back End Developer</strong> presso <strong>SORINT.lab</strong>, dove
-                sviluppo soluzioni
-                software per il settore bancario.
+                Sono un <strong>Senior Backend Developer freelance</strong>, specializzato nello sviluppo di
+                applicazioni per <strong>settori regolamentati</strong> — bancario, sanitario e industriale. Non sono
+                un generalista full-stack: mi concentro su sistemi backend solidi, scalabili e manutenibili, dove
+                affidabilità e conformità sono requisiti imprescindibili.
+                Dal 2026 opero con <strong>Partita IVA</strong>, collaborando con software house e aziende su
+                progetti di sviluppo backend, gestionali e consulenza tecnologica, dopo anni di esperienza maturata
+                in ambito bancario e sanitario.
             </p>
         </div>
     </section>
@@ -60,24 +60,38 @@
             <h2>Esperienze professionali</h2>
 
             <div class="experience-item">
-                <h3>SORINT.lab – Back End Developer</h3>
-                <span class="exp-date">09/2022 – Oggi</span>
-                <p>Sviluppo e gestione di applicazioni web per il settore bancario.</p>
+                <h3>Software Developer Consultant – Partita IVA</h3>
+                <span class="exp-date">2026 – Oggi</span>
+                <p>Collaborazione con software house per lo sviluppo di gestionali per negozi e magazzini.</p>
+                <p><em>Tecnologie:</em> PHP, Symfony, SQL</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Mesa – Technology Consultant</h3>
+                <span class="exp-date">01/2026 – 05/2026</span>
+                <p>Consulenza tecnologica con sviluppo AI-augmented.</p>
+                <p><em>Tecnologie:</em> SQL Server, T-SQL, Power BI, Cursor</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>SORINT.lab – Backend/Frontend Developer</h3>
+                <span class="exp-date">09/2022 – 01/2026</span>
+                <p>Sviluppo backend per il settore bancario e sviluppo frontend su piattaforma Matrix.</p>
                 <p><em>Tecnologie:</em> Java, Spring Boot, Oracle, Git, Jenkins, JavaScript, React.js</p>
             </div>
 
             <div class="experience-item">
-                <h3>GPI Group – Full Stack Developer</h3>
-                <span class="exp-date">02/2021 – 09/2022</span>
+                <h3>Gruppo GPI – Backend Developer</h3>
+                <span class="exp-date">02/2021 – 07/2022</span>
                 <p>Sviluppo e manutenzione di software per sistemi ospedalieri.</p>
                 <p><em>Tecnologie:</em> Java, JavaScript, JSP, Apache Struts, Oracle PL/SQL</p>
             </div>
 
             <div class="experience-item">
-                <h3>Neologica srl – Full Stack Developer</h3>
+                <h3>Neologica – Fullstack Developer</h3>
                 <span class="exp-date">03/2019 – 02/2021</span>
-                <p>Sviluppo e manutenzione di software in ambito medicale.</p>
-                <p><em>Tecnologie:</em> PHP, JavaScript, HTML, CSS, Git</p>
+                <p>Sviluppo e manutenzione di software in ambito medicale, con particolare attenzione alla conformità GDPR.</p>
+                <p><em>Tecnologie:</em> PHP, JavaScript, HTML, CSS, Git, GDPR</p>
             </div>
 
             <div class="experience-item">
@@ -88,10 +102,54 @@
             </div>
 
             <div class="experience-item">
-                <h3>ELCO srl – Full Stack Developer</h3>
+                <h3>El.Co. srl – Fullstack Developer</h3>
                 <span class="exp-date">03/2013 – 11/2017</span>
                 <p>Creazione di interfacce web per sistemi ospedalieri.</p>
                 <p><em>Tecnologie:</em> Java, JavaScript, HTML, CSS, Oracle PL/SQL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progetti -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Progetti</h2>
+            <div class="projects-grid">
+                <div class="project-card project-card--static">
+                    <div class="project-card-header project-card-header--legacy">
+                        <span class="project-status">In produzione da ~8 anni</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3>Gescar</h3>
+                        <p>Gestionale per centri di revisione auto, sviluppato nel 2018 e tuttora in produzione.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP 5.5.9</span>
+                            <span class="project-tag">Symfony 3.4</span>
+                            <span class="project-tag">Doctrine 2.5</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">jQuery 3.3.1</span>
+                            <span class="project-tag">Bootstrap 4.1.3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://carlogagliolo.github.io/Gescar2-demo/" target="_blank" class="project-card">
+                    <div class="project-card-header project-card-header--modern">
+                        <span class="project-status">Demo pubblica disponibile</span>
+                    </div>
+                    <div class="project-card-body">
+                        <h3>Gescar2</h3>
+                        <p>Riscrittura in corso di Gescar con stack moderno, in vista della sostituzione del sistema legacy.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP 8.2</span>
+                            <span class="project-tag">Symfony 7.3</span>
+                            <span class="project-tag">Doctrine ORM 3</span>
+                            <span class="project-tag">MySQL 8.0</span>
+                            <span class="project-tag">Bootstrap 5.3</span>
+                        </div>
+                        <span class="project-link">Vedi demo →</span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -103,12 +161,19 @@
             <div class="skills-grid">
                 <div class="skill-card">Java / Spring Boot</div>
                 <div class="skill-card">Oracle PL/SQL</div>
-                <div class="skill-card">JavaScript / React</div>                
+                <div class="skill-card">SQL Server / T-SQL</div>
+                <div class="skill-card">PHP / Symfony</div>
             </div>
             <div class="skills-grid">
+                <div class="skill-card">JavaScript / React</div>
                 <div class="skill-card">HTML / CSS</div>
-                <div class="skill-card">PHP / Symfony</div>
                 <div class="skill-card">Git / Jenkins</div>
+                <div class="skill-card">Power BI</div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">GDPR</div>
+                <div class="skill-card">Agile / Scrum</div>
+                <div class="skill-card">Sviluppo AI-augmented (Cursor, Claude)</div>
             </div>
         </div>
     </section>
@@ -175,11 +240,6 @@
                             target="_blank">linkedin.com/in/carlo-gagliolo</a></p>
                 </div>
                 <div class="contact-card">
-                    <h3>🧠 Stack Overflow</h3>
-                    <p><a href="https://stackoverflow.com/users/4562756"
-                            target="_blank">stackoverflow.com/users/tuo-id</a></p>
-                </div>
-                <div class="contact-card">
                     <h3>📍 Località</h3>
                     <p>Cairo Montenotte (SV), Italia</p>
                 </div>
@@ -190,7 +250,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>© 2025 Carlo Gagliolo</p>
+            <p>© 2026 Carlo Gagliolo</p>
         </div>
     </footer>
 
